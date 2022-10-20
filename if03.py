@@ -1,6 +1,3 @@
-import re
-
-
 def main(a,b,c):
     """
     Determine the number between large and small.
