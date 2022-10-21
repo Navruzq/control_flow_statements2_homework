@@ -16,5 +16,9 @@ def main(a,b,c):
          x1=c
     if c>=a and a>=b:
          x1=a
+    if b>=c and c>=a:
+         x1=c
+    if c>=b and b>=a:
+         x1=b
     return x1
-print(main(5,5,-1))    
+print(main(23,32,31))    
