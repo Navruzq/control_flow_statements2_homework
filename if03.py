@@ -17,4 +17,4 @@ def main(a,b,c):
     if c>=a and a>=b:
          x1=a
     return x1
-print(main(782,2,9)) 
+print(main(3,7,2)) 
