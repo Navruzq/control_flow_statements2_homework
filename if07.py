@@ -16,15 +16,15 @@ def main(temp):
     
     if temp<0:
         s="Freezing"
-    if temp>1 and temp<11:
+    if temp>=1 and temp<11:
         s="Very Cold"
-    if temp>11 and temp<21:
+    if temp>=11 and temp<21:
         s="Cold"
-    if temp>21 and temp<31:
+    if temp>=21 and temp<31:
         s="Normal"
-    if temp>31 and temp<40:
+    if temp>=31 and temp<40:
         s="Hot"
     if temp>40:
-        s="very hot"
+        s="Very hot"
     return s
 print(main(2)) 
